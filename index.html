@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7e5b7">
+  <meta name="description" content="愛犬と一緒に過ごせる、台湾のペットフレンドリーなカフェをご紹介します。">
+  <title>Pet Moments｜ペットと楽しむレストラン</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body class="home-page">
+  <main>
+    <section class="home-hero" id="top" aria-labelledby="home-title">
+      <img class="home-hero-art" src="img/主頁圖1.png" alt="" aria-hidden="true">
+      <header class="home-header">
+        <div class="home-brand">
+          <img src="img/dog logo1.png" alt="Pet Moments">
+        </div>
+        <form class="search home-search" role="search" action="#restaurants" autocomplete="off">
+          <label class="visually-hidden" for="site-search">レストランを検索</label>
+          <span class="search-icon" aria-hidden="true"></span>
+          <input id="site-search" name="q" type="search" placeholder="レストランを検索" aria-autocomplete="list" aria-controls="search-results" aria-expanded="false">
+          <button type="submit" aria-label="検索"></button>
+          <ul class="search-results" id="search-results" role="listbox" aria-label="店舗候補" hidden></ul>
+        </form>
+      </header>
+
+      <div class="home-hero-copy">
+        <p class="home-eyebrow">WELCOME TO PET MOMENTS</p>
+        <h1 id="home-title">Pet Moments<br><span>にようこそ</span></h1>
+        <p class="home-intro">愛犬と一緒に、お気に入りの場所を見つけよう。</p>
+        <a class="button button-dark home-cta" href="#restaurants">レストランを探す <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="home-restaurants" id="restaurants" aria-labelledby="restaurants-title">
+      <div class="home-section-heading">
+        <div>
+          <p class="home-eyebrow">FIND YOUR NEXT FAVORITE</p>
+          <h2 id="restaurants-title">レストラン</h2>
+        </div>
+        <p>愛犬と一緒に楽しめるお店をご紹介します。</p>
+      </div>
+
+      <div class="restaurant-list">
+        <a class="restaurant-link" href="restaurant1.html">
+          <article class="restaurant-card">
+            <img src="img/c(1).jpg" alt="莫平方 m² café の店内" loading="lazy">
+            <div class="restaurant-card-copy">
+              <span class="restaurant-type">PET FRIENDLY CAFE</span>
+              <h3>莫平方 m² café</h3>
+              <p>愛犬とくつろぐ、やさしいカフェ時間。</p>
+            </div>
+            <span class="restaurant-arrow" aria-hidden="true">↗</span>
+          </article>
+        </a>
+        <a class="restaurant-link" href="restaurant2.html">
+          <article class="restaurant-card">
+            <img src="img/b(2)1.jpg" alt="好運站カフェの店内" loading="lazy">
+            <div class="restaurant-card-copy">
+              <span class="restaurant-type">PET FRIENDLY CAFE</span>
+              <h3>好運站</h3>
+              <p>愛犬との新しいひとときを楽しめるお店。</p>
+            </div>
+            <span class="restaurant-arrow" aria-hidden="true">↗</span>
+          </article>
+        </a>
+        <a class="restaurant-link" href="restaurant3.html">
+          <article class="restaurant-card">
+            <img src="img/c(3).jpg" alt="MAO MAO LEEの店内" loading="lazy">
+            <div class="restaurant-card-copy">
+              <span class="restaurant-type">PET FRIENDLY CAFE</span>
+              <h3>MAO MAO LEE</h3>
+              <p>愛犬と一緒に食事やカフェ時間を楽しめるお店。</p>
+            </div>
+            <span class="restaurant-arrow" aria-hidden="true">↗</span>
+          </article>
+        </a>
+      </div>
+      <p class="home-list-note"><span aria-hidden="true">✦</span> すべてのお店で、愛犬とのご来店を歓迎しています。</p>
+    </section>
+  </main>
+
+  <footer class="home-footer">
+    <a class="home-footer-brand" href="#top">Pet Moments</a>
+    <p>愛犬と一緒に、もっと楽しいカフェ時間を。</p>
+    <small>© Pet Moments</small>
+  </footer>
+</body>
+</html>
